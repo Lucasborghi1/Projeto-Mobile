@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto Mobile</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="text_recuperar">Recuperar senha</string>
+    <string name="title_recuperar">Recuperar senha</string>
+</resources>
