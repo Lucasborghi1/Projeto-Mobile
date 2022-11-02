@@ -1,0 +1,144 @@
+import java.util.Scanner;
+
+//Tela Login
+
+class login {
+   public String login;
+   public String senha;
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("lucasborghi0411@gmail.com");
+        String login = in.nextLine();
+    
+        System.out.println("1234");
+        String senha = in.nextLine();
+
+        if(login.equals("lucasborghi0411@gmail.com") && senha.equals("1234")){
+      System.out.printf("Usuário logado com sucesso.", login);
+        }else{
+      System.out.println("Login ou senha inválidos!");
+        }
+    }
+}
+------------------------------------------------------------------------
+import javax.swing.JOptionPane;
+
+//Tela recuperar senha I
+
+class Recuperar senha{
+  
+  public String e-mail;
+  
+  class Main {
+  public static void main(String[] args){
+    String e-mail; 
+    e-mail= JOptionPane.showInputDialog("digite o seu e-mail");
+   if (c.e-mail(lucasborghi0411@gmail.com))
+    System.out.println("Enviamos um e-mail com a definição de senha");
+    else
+     System.out.println("E-mail incorreto" );
+  } 
+  }
+------------------------------------------------------------------------
+import javax.swing.JOptionPane;
+
+MailMessage mail = new MailMessage();
+
+//Tela recuperar senha II
+
+class Recuperar senha II{
+
+            mail.From = new MailAddress(ConfigurationManager.AppSettings["userName"]);
+            mail.To.Add(emailPara);
+            mail.Subject = assunto;
+            mail.Body = corpo;
+
+            // em caso de anexos
+            // mail.Attachments.Add(new Attachment(@"C:\teste.txt"));
+
+            // ENVIO DE EMAIL ASSÍNCRONO
+            var smtp = new SmtpClient("smtp.gmail.com");
+            smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableSsl"]);
+            smtp.Port = Convert.ToInt32(ConfigurationManager.AppSettings["Port"]);
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.UseDefaultCredentials = Convert.ToBoolean(ConfigurationManager.AppSettings["UseDefaultCredentials"]);
+            smtp.Credentials = new NetworkCredential(ConfigurationManager.AppSettings["userName"], ConfigurationManager.AppSettings["appPassword"]);
+            smtp.SendCompleted += (s, e) =>
+            {
+                smtp.Dispose();
+            };
+            smtp.SendAsync(mail, null);
+------------------------------------------------------------------------------
+import java.util.Scanner;
+
+//Tela apolice
+
+class apolice{
+   public String codigo apolice;
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+System.out.println("0123456");
+        String codigo apolice = in.nextLine();
+        
+if
+    System.out.println("Data Vigencia: 24/05/2020");
+in.nextLine();
+System.out.println("Data Fim Vigencia: 24/05/2021");
+in.nextLine();
+System.out.println("Placa: ABCD 1234");
+in.nextLine();
+System.out.println("Modelo: Nivus Highline 200 TSI");
+in.nextLine();
+System.out.println("Cor: Branca");
+in.nextLine();
+System.out.println("Indenização: R$ 100.000,00");
+in.nextLine(); 
+    else
+     System.out.println("Codigo da apolice incorreto" );
+  } 
+  }
+-------------------------------------------------------
+import java.util.Scanner;
+
+//Tela dados do cliente
+
+class tela dados{
+   public String dados;
+
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+
+System.out.println("cliente1");
+        String dados = in.nextLine();
+       
+if
+    System.out.println("cliente1");
+in.nextLine();
+System.out.println("cliente1@gmail.com");
+in.nextLine();
+System.out.println("000000000/01");
+in.nextLine();
+System.out.println("(11) 90101-0101");
+in.nextLine();
+    else
+     System.out.println("Erro nos dados" );
+  } 
+  }
+-------------------------------------------
+import java.util.Scanner;
+
+//Tela aviso de senha alterada
+
+class tela aviso{
+   public String aviso;
+
+    public static void main(String[] args) {
+  
+}
+   System.out.println("Senha alterada com sucesso");    
+
+  }
