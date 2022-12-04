@@ -10,5 +10,6 @@ public class FormAviso extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_aviso);
+        getSupportActionBar().hide();
     }
 }
